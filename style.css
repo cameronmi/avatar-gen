@@ -420,7 +420,7 @@ kbd {
 }
 
 header {
-  width: 270px;
+  width: 480px;
   float: left;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -487,7 +487,7 @@ strong {
 }
 
 section {
-  width: 500px;
+  width: calc(100% - 500px);
   float: right;
   padding-bottom: 50px;
 }
@@ -572,4 +572,10 @@ footer {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+
+#display {
+  background: rgba(50, 50, 50, .8);
+  color: white;
+  padding: 15px 15px 5px 15px;
+  border-radius: 10px;
+}
